@@ -1,0 +1,14 @@
+.icon_button {
+	display: flex;
+	padding: 5px;
+	gap: 5px;
+	border: 1px solid lightgray;
+	border-radius: 4px;
+	align-items: center;
+	cursor: pointer;
+}
+
+.icon {
+	width: 14px;
+	height: 14px;
+}

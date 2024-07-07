@@ -1,0 +1,34 @@
+.launch_card {
+	display: flex;
+	border: 1px solid lightgray;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	border-radius: 8px;
+	margin-bottom: 8px;
+}
+
+.launch_image_container {
+	width: 200px;
+	
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.launch_image {
+	height: 150px;
+}
+
+.launch_content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
+}
+
+.success {
+	color: green;
+}
+
+.failed {
+	color: red;
+}
